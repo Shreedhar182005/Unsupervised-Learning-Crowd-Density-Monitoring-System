@@ -1,0 +1,15 @@
+Dependancies
+____________
+
+!pip install opencv-python scikit-image scikit-learn matplotlib
+
+Libraries required
+_________________
+
+# Import libraries
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+from skimage.segmentation import slic
+from skimage.color import rgb2gray
+from sklearn.cluster import KMeans
