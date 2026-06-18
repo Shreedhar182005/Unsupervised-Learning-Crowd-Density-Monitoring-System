@@ -1,1 +1,14 @@
+Problem Statement
 
+Crowd management has become a critical challenge in public places such as railway stations, shopping malls, airports, stadiums, religious gatherings, and smart cities. Traditional crowd monitoring methods rely heavily on manual observation, which is time-consuming, costly, and prone to human errors. During peak hours or emergency situations, the inability to accurately estimate crowd density can lead to congestion, safety hazards, stampedes, and inefficient resource allocation.
+
+The Unsupervised Crowd Density Monitoring System aims to automatically analyze video feeds and estimate crowd density without requiring manually labeled training data. Using computer vision and machine learning techniques, the system identifies crowd patterns, measures population concentration, and generates density information in real time. The unsupervised approach significantly reduces the dependency on large annotated datasets while maintaining scalability and adaptability to different environments.
+
+The primary objective of the system is to provide authorities with an intelligent surveillance solution capable of detecting overcrowded regions, monitoring crowd movement, and supporting proactive decision-making. By offering real-time crowd insights, the system enhances public safety, improves event management, and contributes to the development of smart and secure urban infrastructure.
+
+Objectives
+Automatic crowd density estimation.
+Real-time monitoring of public spaces.
+Reduction of manual supervision.
+Early detection of overcrowded zones.
+Improved public safety and resource management.
