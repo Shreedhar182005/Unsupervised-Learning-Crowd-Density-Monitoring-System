@@ -1,0 +1,15 @@
+from google.colab import files
+
+uploaded = files.upload()
+
+# Get file name
+filename = list(uploaded.keys())[0]
+
+# Load image
+image = cv2.imread(filename)
+image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+# Show image
+plt.imshow(image)
+plt.title("Original Image")
+plt.axis("off")
